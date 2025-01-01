@@ -1,0 +1,251 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v32-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v32-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v32-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v22-latin-regular.woff2") format("woff2");
+}
+
+:root {
+  --color-brand-blue: #2b7fff;
+  --color-brand-dark: #011c44;
+  --color-brand-light: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: var(--color-brand-dark);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* ------------------Header----------------------- */
+
+.link {
+  text-decoration: none;
+  color: var(--color-brand-dark);
+}
+
+.link:hover {
+  color: var(--color-brand-blue);
+}
+
+/* ---------------Hero section--------------- */
+
+.hero-title {
+  color: var(--color-brand-blue);
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 0.81;
+  text-transform: capitalize;
+  max-width: 529px;
+}
+
+.hero-button {
+  border-radius: 32px;
+  padding: 16px 32px;
+  width: 219px;
+  height: 53px;
+  background-color: var(--color-brand-blue);
+  color: var(--color-brand-light);
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: var(--color-brand-light);
+  color: var(--color-brand-dark);
+  border: 2px solid #2b7fff;
+}
+
+.hero-button:active {
+  background-color: var(--color-brand-blue);
+  color: var(--color-brand-light);
+}
+
+/* -----------Advantages section----------- */
+
+.advantages-title {
+  max-width: 529px;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.advantages-title .accent {
+  color: var(--color-brand-blue);
+  text-transform: capitalize;
+}
+
+.advantages-text {
+  font-size: 22px;
+}
+
+.advantages-text .accent {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* -----------------Benefits section---------------- */
+
+.benefits-title {
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+}
+
+.benefits-title .accent {
+  color: var(--color-brand-blue);
+}
+
+.benefits-text {
+  line-height: 1.3;
+}
+
+/* ----------------Procedures section------------ */
+
+.procedures-title {
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+}
+
+.procedures-title .accent {
+  color: var(--color-brand-blue);
+}
+
+.procedures-item {
+  color: var(--color-brand-light);
+  font-size: 22px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.navigation-procedure {
+}
+
+/* ----------------location section--------------- */
+
+.location-title {
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+}
+
+.location-title .accent {
+  color: var(--color-brand-blue);
+}
+
+.container-location-form {
+  background-color: #011c44;
+}
+
+.location-form-title {
+  color: var(--color-brand-light);
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  max-width: 274px;
+}
+
+.location-form-title .accent {
+  color: var(--color-brand-blue);
+}
+
+.location-field {
+  border: 2px solid #747272;
+  border-radius: 32px;
+  width: 310px;
+  height: 52px;
+  font-size: 13px;
+  color: var(--color-brand-light);
+  text-align: left;
+}
+
+.location-field:hover {
+  background-color: #747272;
+}
+
+.location-field:hover::placeholder {
+  color: var(--color-brand-light);
+}
+
+.location-button {
+  color: var(--color-brand-light);
+  background-color: var(--color-brand-blue);
+  border-radius: 32px;
+  width: 281px;
+  height: 53px;
+}
+
+.location-button:hover {
+  background-color: var(--color-brand-light);
+  color: var(--color-brand-dark);
+}
+
+.location-button:active {
+  background-color: var(--color-brand-blue);
+  color: var(--color-brand-light);
+}
+
+.location-form-text {
+  font-size: 12px;
+  color: #747272;
+  text-align: center;
+}
+
+/* --------------------Footer------------------ */
+
+.footer {
+  background-color: #011c44;
+}
+
+.link-footer {
+  text-decoration: none;
+  color: var(--color-brand-light);
+}
+
+.link-footer:hover {
+  color: var(--color-brand-blue);
+}
+
+.footer-address-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--color-brand-light);
+  font-style: normal;
+}
+
+.address-copyright {
+  font-size: 13px;
+  color: #747272;
+  text-decoration: none;
+  font-style: normal;
+}
