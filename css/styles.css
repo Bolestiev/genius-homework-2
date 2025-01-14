@@ -108,6 +108,15 @@ ul {
   align-items: center;
 }
 
+.header-address-container {
+  display: flex;
+  gap: 32px;
+}
+
+/* .header-address-container li {
+  display: flex;
+} */
+
 .link {
   text-decoration: none;
   color: var(--color-brand-dark);
@@ -421,8 +430,14 @@ ul {
   gap: 20px;
 }
 
+.footer-contacts {
+  flex-grow: 1;
+}
+
 .address-list-footer {
   flex-grow: 1;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .link-footer {
@@ -443,6 +458,14 @@ ul {
   font-size: 16px;
   color: var(--color-brand-light);
   font-style: normal;
+}
+
+.footer-socials {
+  display: flex;
+
+  gap: 24px;
+  margin-top: 16px;
+  width: 174px;
 }
 
 .address-copyright {
