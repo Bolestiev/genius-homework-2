@@ -404,6 +404,23 @@ ul {
 .footer {
   background-color: #011c44;
   padding: 56px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.footer::after {
+  background-image: url("../images/farmacy-footer.png");
+  width: 247px;
+  height: 152px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  right: 0;
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  bottom: 0;
 }
 
 .footer-container {
