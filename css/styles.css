@@ -187,6 +187,15 @@ ul {
 .advantages-section {
   padding-top: 126px;
 }
+.advantages-container {
+  display: flex;
+  /* position: relative; */
+  gap: 32px;
+}
+
+.advantages-info {
+  width: 709px;
+}
 
 .advantages-title {
   max-width: 529px;
@@ -207,6 +216,38 @@ ul {
 .advantages-text .accent {
   font-weight: 600;
   text-transform: capitalize;
+}
+
+.advantages-photo {
+  position: relative;
+  width: 499px;
+  height: 695px;
+}
+
+.advantages-photo::before {
+  background-image: url("../images/woman-advantages-1.png");
+  position: absolute;
+  width: 335px;
+  height: 328px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  content: "";
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+
+.advantages-photo::after {
+  background-image: url("../images/woman-adv-2.png");
+  position: absolute;
+  width: 343px;
+  height: 328px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  content: "";
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
 }
 
 /* -----------------Benefits section---------------- */
