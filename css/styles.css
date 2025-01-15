@@ -274,16 +274,18 @@ ul {
 
 .benefits-items {
   border-radius: 32px;
-  width: 252px;
-  height: 133px;
+  width: 316px;
   box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.38);
   padding: 24px 32px;
+  display: flex;
+  flex-direction: column; /* Ставимо елементи вертикально */
+  align-items: center; /* Центруємо по горизонталі */
+  justify-content: center; /* Центруємо по вертикалі */
+  text-align: center;
 }
 
 .benefits-text {
   line-height: 1.3;
-
-  text-align: center;
 }
 
 /* ----------------Procedures section------------ */
@@ -344,7 +346,7 @@ ul {
 }
 
 .procedures-item {
-  color: var(--color-brand-light);
+  color: var(--color-brand-blue);
   font-size: 22px;
   line-height: 1.18;
   text-align: center;
@@ -373,6 +375,7 @@ ul {
 .location-container {
   display: flex;
   gap: 32px;
+  justify-content: center;
 }
 
 .location-map {
