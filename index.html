@@ -212,26 +212,47 @@
             ></iframe>
 
             <div class="container-location-form">
-              <h3 class="location-form-title">
-                Запишіться <span class="accent">безкоштовно</span> та отримайте
-                подарунок
-              </h3>
-              <form>
-                <input
-                  class="location-field"
-                  type="text"
-                  placeholder="Ваше ім'я та прізвище"
-                />
-                <input
-                  class="location-field"
-                  type="text"
-                  placeholder="Ваш номер телефону"
-                />
-                <input
-                  class="location-field"
-                  type="text"
-                  placeholder="Ваша електронна пошта"
-                />
+              <form class="location-form">
+                <h3 class="location-form-title">
+                  Запишіться <span class="accent">безкоштовно</span> та
+                  отримайте подарунок
+                </h3>
+                <div class="location-form-field">
+                  <label class="label-location visually-hidden" for="user-name"
+                    >Ваше ім'я та прізвище</label
+                  >
+                  <input
+                    class="location-field"
+                    type="tel"
+                    name="user-tel"
+                    id="user-tel"
+                    placeholder="Ваш номер телефону"
+                  />
+                </div>
+                <div class="location-form-field">
+                  <label class="label-location visually-hidden" for="user-tel"
+                    >Ваш номер телефону</label
+                  >
+                  <input
+                    class="location-field"
+                    type="tel"
+                    name="user-tel"
+                    id="user-tel"
+                    placeholder="Ваш номер телефону"
+                  />
+                </div>
+                <div class="location-form-field">
+                  <label class="label-location visually-hidden" for="user-email"
+                    >Ваша електронна адреса</label
+                  >
+                  <input
+                    class="location-field"
+                    type="email"
+                    name="user-email"
+                    id="user-email"
+                    placeholder="Ваша електронна адреса"
+                  />
+                </div>
 
                 <button class="location-button" type="submit">
                   Записатись безкоштовно
