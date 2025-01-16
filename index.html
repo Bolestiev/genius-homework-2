@@ -216,28 +216,30 @@
                 Запишіться <span class="accent">безкоштовно</span> та отримайте
                 подарунок
               </h3>
-              <input
-                class="location-field"
-                type="text"
-                placeholder="Ваше ім'я та прізвище"
-              />
-              <input
-                class="location-field"
-                type="text"
-                placeholder="Ваш номер телефону"
-              />
-              <input
-                class="location-field"
-                type="text"
-                placeholder="Ваша електронна пошта"
-              />
+              <form>
+                <input
+                  class="location-field"
+                  type="text"
+                  placeholder="Ваше ім'я та прізвище"
+                />
+                <input
+                  class="location-field"
+                  type="text"
+                  placeholder="Ваш номер телефону"
+                />
+                <input
+                  class="location-field"
+                  type="text"
+                  placeholder="Ваша електронна пошта"
+                />
 
-              <button class="location-button" type="submit">
-                Записатись безкоштовно
-              </button>
-              <p class="location-form-text">
-                Натискаючи на кнопку я погоджуюсь з політикою конфіденційності
-              </p>
+                <button class="location-button" type="submit">
+                  Записатись безкоштовно
+                </button>
+                <p class="location-form-text">
+                  Натискаючи на кнопку я погоджуюсь з політикою конфіденційності
+                </p>
+              </form>
             </div>
           </div>
         </div>
@@ -340,6 +342,56 @@
     <div class="backdrop is-hidden">
       <div class="modal">
         <button class="modal-btn-close" type="button">Close</button>
+        <h2 class="modal-hero">Замовити дзвінок</h2>
+        <p class="modal-hero-text">
+          Запишіться <span class="accent"><a>безкоштовно</a></span> <br />
+          та отримайте подарунок
+        </p>
+        <form name="contact-form" autocomplete="off" novalidate>
+          <div class="form-field">
+            <label class="label-modal visually-hidden" for="user-name"
+              >Ваше ім'я та прізвище</label
+            >
+            <input
+              class="input-modal"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Ваше ім'я та прізвище"
+            />
+          </div>
+          <div class="form-field">
+            <label class="label-modal visually-hidden" for="user-tel"
+              >Ваш номер телефону</label
+            >
+            <input
+              class="input-modal"
+              type="tel"
+              name="user-tel"
+              id="user-tel"
+              placeholder="Ваш номер телефону"
+            />
+          </div>
+          <div class="form-field">
+            <label class="label-modal visually-hidden" for="user-email"
+              >Ваша електронна адреса</label
+            >
+            <input
+              class="input-modal"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="Ваша електронна адреса"
+            />
+          </div>
+          <button class="form-button" type="submit">
+            Записатись безкоштовно
+          </button>
+          <p class="form-terms">
+            Натискаючи на кнопку я погоджуюсь з
+            <a class="form-terms-link" href="#">політикою конфіденційності</a>
+          </p>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
