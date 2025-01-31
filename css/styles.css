@@ -270,6 +270,41 @@ ul {
   border-radius: 50%;
 }
 
+.stars {
+  position: relative;
+}
+
+.star-one {
+  position: absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  content: "";
+  margin-top: 336px;
+  margin-bottom: 271px;
+  /* margin-left: 858px; */
+  /* margin-right: 294px; */
+}
+
+.star-two {
+  position: absolute;
+  background-repeat: no-repeat;
+  content: "";
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-right: 50px;
+  margin-left: 500px;
+}
+
+.star-three {
+  position: absolute;
+  background-repeat: no-repeat;
+  content: "";
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 480px;
+  margin-top: 250px;
+}
+
 /* -----------------Benefits section---------------- */
 
 .benefits-container {
